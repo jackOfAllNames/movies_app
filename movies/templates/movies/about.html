@@ -1,0 +1,7 @@
+{% extends "movies/_base.html" %}
+
+<title>{%block title%} Movies About Page {%endblock%}</title>
+<h1>{%block main-header%}Movies About Page{%endblock%}</h1>
+{% block content %} {% load static %}
+<img src="{% static 'movies/cash.avif' %}" alt="A movie car" width="300" />
+{% endblock %}
